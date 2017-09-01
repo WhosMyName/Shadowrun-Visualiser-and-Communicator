@@ -141,39 +141,54 @@ end
 --Testing Menus
 
 function imguiMainMenu()
-    if imgui.Button("Exit") then
-        --state = gameState.end
+    if imgui.Button("Settings") then
+        --get some Settings done and make persistent in conf.lua
     end
     if imgui.Button("Continue") then
         --state = gameState.gameLoop
     end
-    if imgui.Button("Settings") then
-        --get some Settings done and make persistent in conf.lua
+    if imgui.Button("Exit") then
+        --state = gameState.end
     end
 end
 
 function imguiContextMenu()
     if imgui.Button("Move") then
-        --
+        --if destination <= player.speed: [speed = movementrange]
+        --move to destination
+        --else:
+        -- either move as far as possible |or| destination to far away 
     end
     if imgui.Button("Attack") then
-        --
+        --if attack not aoe:
+        --attack entity
+        --else:
+        --for entity in attack.range
+        --attack entity
     end
     if imgui.Button("View Stats") then
-        --
+        --do some raycastiong to determine targeted object
+        --call imguiViewstats(obj)
+        --then calls obj.stats functions
+        --displays them accordingly
     end
     if imgui.Button("Change Indicator Settings") then
-        --
+        --state = gameState.indicatorsettings
+        --maybee set bool to allow function to be called in love.draw()
+        --???
     end
     if imgui.Button("Quit") then
-        --
+        --call function toi safely quit the game
+        --save settings to settings file
+        --save stats to chummer 5
+        --anything missing????
     end
 end
 
 function imguiChangeIndicator()
     local status
     imgui.Text("Change Indicator Properties")
-    local r = player1.indicator.color.red/255
+    local r = player1.indicaafelytor.color.red/255
     local g = player1.indicator.color.green/255
     local b = player1.indicator.color.blue/255
     local a = player1.indicator.color.alpha/255
@@ -182,6 +197,7 @@ function imguiChangeIndicator()
     player1.indicator:setColor(color)
     if imgui.Button("confirm") then
         inmenu = false
+        --staate = gameState.gameLoop
     end
 end
 
