@@ -1,0 +1,78 @@
+Player_Name:
+Name:
+Metatype:
+Ethnicity:
+Age:
+Sex:
+Height:
+Street_Cred:
+Notoriety:
+Public_Awareness:
+Karma:
+Total_Karma:
+Misc:
+Attr_Body:
+Attr_Agility:
+Attr_Reaction:
+Attr_Willpower:
+Attr_Logic:
+Attr_Intuition:
+Attr_Charisma:
+Attr_Edge:
+Attr_Curr_Edge:
+Attr_Essence:
+Attr_Magic:
+Attr_Resonance:
+Attr_Initiative:
+Attr_Matrix_Initiative:
+Attr_Astral_Initiative:
+Attr_Composure:
+Attr_Judge_Intentions:
+Attr_Memory:
+Attr_Lift:
+Attr_Carry:
+Attr_Movement:
+Attr_Social_Limit:
+Attr_Mental_Limit:
+Attr_Physical_Limit:
+Lifestyle:
+Nuyen:
+License:
+Fake_ID:
+Primary_Armor:
+Primary_Armor_Rating:
+Primary_Ranged:
+Primary_Ranged_Dmg:
+Primary_Ranged_Acc:
+Primary_Ranged_AP:
+Primary_Ranged_Mode:
+Primary_Ranged_RC:
+Primary_Ranged_Ammo:
+Primary_Melee:
+Primary_Melee_Reach:
+Primary_Melee_Dmg:
+Primary_Melee_Acc:
+Primary_Melee_AP:
+Skills{Name, RTG, Type}:
+Qualities{Name, RTG, Type}:
+Contacts{Name, Loyalty, Connection, Favor}:
+Ranged_Weapons{Name, Dmg, Acc, AP, Mode, RC, Ammo}:
+Melee_Weapon{Reach, Dmg, Acc, AP}:
+Armor{Name, Rating, Notes}:
+Cyberdeck_Model:
+Cyberdeck_Atk:
+Cyberdeck_Sleaze:
+Cyberdeck_Rating:
+Cyberdeck_Data_Processing:
+Cyberdeck_Firewall:
+Cyberdeck_Programs:
+Cyberdeck_Matrix_Condition_Monitor:
+Gear{Name, Rating, Notes}:
+Spells{Name, Type, Target, Range, Duration, Drain}:
+Preparations{Name, Type, Target, Range, Duration, Drain}:
+Rituals{Name, Type, Target, Range, Duration, Drain}:
+Complex_Forms{Name, Type, Target, Range, Duration, Drain}:
+Adept_Powers{Name, Rating, Notes}:
+Other_Abilities{Name, Rating, Notes}:
+Vehicle{Name, Handling, Acceleration, Speed, Pilot, Body, Armor, Sensor, Notes}:
+Argumentations{Name, Rating, Notes, Essence}:
